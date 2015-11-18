@@ -1,0 +1,58 @@
+<head>
+<!-- <link rel="stylesheet" type="text/css" href="css/jquery.dataTables.min.css"> -->
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" type="text/css" href="css/component.css">
+<link rel="stylesheet" type="text/css" href="css/demo.css">
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+</head>
+<!-- <FORM METHOD="POST" ACTION="https://www.google.co.uk/"> -->
+<TABLE BORDER="1" id="orderTable">
+  <tr>
+     <td>ID</td>
+     <td>Description</td> 
+     <td>Quantity</td>
+     <td>Amount</td>
+     <td>VAT</td>
+     <td>VAT Percentage</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Nokia</td> 
+    <td>2</td>
+    <td>100</td>
+    <td>15</td> 
+    <td>15%</td>
+    <td> <button class="confirmDelete push_button red" type="button">Delete</button> </td>
+  </tr>
+  <tr>
+      <td>2</td>
+      <td>Apple</td> 
+      <td>4</td>
+      <td>200</td>
+      <td>30</td> 
+      <td>15%</td>
+      <td> <button class="confirmDelete push_button red" type="button">Delete</button> </td>
+    </tr>
+  <tr>
+      <td>3</td>
+      <td>Google</td> 
+      <td>2</td>
+      <td>600</td>
+      <td>90</td> 
+      <td>15%</td>
+      <td> <button class="confirmDelete push_button red" type="button">Delete</button> </td>
+    </tr>
+</TABLE>
+
+<button type="button" class="push_button blue" onclick="addRow()">Add</button>
+<!-- <button type="button" style="width: 80px;" onclick="deleteRow()">Delete</button> -->
+<button id="editButton" class="push_button blue" type="button" onclick="editRow()">Edit</button>
+<!-- <P><INPUT TYPE="SUBMIT" VALUE="Confirm Order" NAME="confirmOrder"></P> -->
+<button id="submitJson" class="push_button blue" type="button">Submit</button>
+<!-- </FORM> -->
+
+<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+<!-- <script type="text/javascript" src="js/jquery.dataTables.min.js"></script> -->
+<script type="text/javascript" src="js/index.js"></script>
+
